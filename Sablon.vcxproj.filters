@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shader Files">
+      <UniqueIdentifier>{a8b5ff39-85c7-4196-b461-819f918ebb58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="basic.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="basic.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="res\beaver_stuffed_animal.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\otvorena_kandza.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zatvorena_kandza.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\automat.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Black_Fur_baseColor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Black_Fur_metallicRoughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Black_Fur_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brown_fur_baseColor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\crni_fioka.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CRNI_METAL.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\crveni_metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\kandza_tekstura.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Material_albedo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Material_AO.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Material_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Material_roughness.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\metal_ljub.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\metal3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pod.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pod_r.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pod2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pod5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sivi_metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tkanina_bela.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tkanina_crvena.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tkanina_r.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yellow_fur_baseColor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yellow_fur_metallicRoughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zardjali_metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zeton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid_veliki.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zid5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

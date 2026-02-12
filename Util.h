@@ -1,0 +1,13 @@
+#pragma once
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+
+struct OBJModel {
+    unsigned int VAO, VBO;
+    int vertexCount;
+};
+
+unsigned int createShader(const char* vsSource, const char* fsSource);
+unsigned int loadImageToTexture(const char* filePath);
+GLFWcursor* loadImageToCursor(const char* filePath, bool isDefault = true);
+OBJModel loadOBJ(const char* filePath);

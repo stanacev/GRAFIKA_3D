@@ -1,0 +1,17 @@
+.vs/
+x64/
+Debug/
+Release/
+packages/
+*.db
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+*.idb
+*.ilk
+*.exe
+*.sdf
+*.opensdf
+*.user
+!packages.config
